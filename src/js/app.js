@@ -17,13 +17,13 @@ function render(variables = {}) {
     "City, Country"}</h3>
               <ul class="${variables.socialMediaPosition}">
               ${variables.twitter &&
-                `<li><a href="https://twitter.com/${variables.name}?"><i class="fa fa-twitter"></i></a></li>`}
+                `<li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>`}
               ${variables.github &&
-                `<li><a href="https://github.com/${variables.name}?"><i class="fa fa-github"></i></a></li>`}
+                `<li><a href="https://github.com/"><i class="fa fa-github"></i></a></li>`}
               ${variables.linkedin &&
-                `<li><a href="https://linkedin.com/${variables.name}?"><i class="fa fa-linkedin"></i></a></li>`}
+                `<li><a href="https://linkedin.com/"><i class="fa fa-linkedin"></i></a></li>`}
               ${variables.instagram &&
-                `<li><a href="https://instagram.com/${variables.name}?"><i class="fa fa-instagram"></i></a></li>`}
+                `<li><a href="https://instagram.com/"><i class="fa fa-instagram"></i></a></li>`}
               </ul>
             </div>
         `;
